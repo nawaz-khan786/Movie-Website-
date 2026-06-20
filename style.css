@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    /* background: skyblue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dotted black; */
+
+}
+
+.perent {
+    display: flex;
+    width: 100%;
+    background: black;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    color: orange;
+    /* background: green; */
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    margin: 5px;
+}
+
+.nav {
+    display: flex;
+    width: 50%;
+    /* background: red; */
+    justify-content: right;
+    margin: 5px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    font-family: monospace;
+    font-size: 27px;
+    transition: all 1s linear;
+}
+
+.nav a:hover {
+    color: yellowgreen;
+}
+
+.search {
+    display: flex;
+    width: 25%;
+    /* background: black; */
+    justify-content: center;
+    align-items: center;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: darkorange;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-perent {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-perent img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.image-perent img:hover {
+    width: 25%;
+}
+
+/* .image {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+} */
+
+.image img {
+    width: 100%;
+    height: 450px;
+}
+
+#nav1 {
+    display: flex;
+    width: 100%;
+    background: black;
+    justify-content: center;
+    align-content: center;
+}
+
+#nav1 a {
+    color: orange;
+    text-decoration: none;
+    width: 15%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px;
+    border: 2px solid orange;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+#nav1 a:hover {
+    background: white;
+    color: black;
+}
+
+.word {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin: 10px;
+    flex-direction: column;
+    background: lightblue;
+}
+
+.word1 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    background: red;
+}
+
+.word1 h1 {
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 200px;
+    font-family: serif;
+}
+
+#spn {
+    color: white;
+    margin-left: 650px;
+    font-family: monospace;
+}
+
+#poster1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#poster {
+    width: 20%;
+    margin: 10px;
+}
+
+#poster h2 {
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#poster img {
+    width: 200px;
+    height: 250px;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    background: white;
+    transition: all 1s linear;
+}
+
+button:hover {
+    background: yellowgreen;
+    color: black;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    /* background: blue; */
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    /* background: palegreen; */
+    margin: 5px;
+}
+
+.fotor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: lawngreen; */
+    width: 100%;
+}
+
+.fotor-perent {
+    /* background: red; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotor-perent #emal {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    /* text-align: center; */
+}
+
+.batn {
+    width: 300px;
+    margin-top: 5px;
+    height: 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 25px 25px;
+}
+
+.batn:hover{
+    background: black;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    /* background: red; */
+}
+
+.info-child {
+    width: 20%;
+    margin: 5px;
+    /* background: pink; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.movie {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.info-child>h6 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: serif;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.info-child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: gold; */
+    width: 30%;
+}
+.info-child1 h5{
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.info-child1 input{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.batn1{
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 5px;
+    border-radius: 25px 25px;
+}
+.batn1:hover{
+    background: black;
+    color: white;
+}
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
